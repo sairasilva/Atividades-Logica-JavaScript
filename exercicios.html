@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios &mdash; Atividades Javascript PROA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="alternarTema()" id="theme-toggle" aria-label="Alternar modo claro">☀️</button>
+
+    <header class="site-header">
+        <div class="nav-inner">
+            <a href="index.html" class="brand">&lt;/&gt; PROA &middot; JS</a>
+            <nav class="nav-links">
+                <a href="index.html">Início</a>
+                <a href="exercicios.html" class="active">Exercícios</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-head">
+        <h1>Atividades Javascript PROA</h1>
+        <p class="subtitle">Lógica de Programação &mdash; Entrada, Processamento e Saída de Dados</p>
+    </div>
+
+    <main class="container">
+
+        <details class="category" open>
+            <summary>Exercícios Iniciais</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="fahrenheit()"> Fahrenheit </button>
+                    <button onclick="celsius()"> Celsius </button>
+                    <button onclick="volumeLata()"> Volume Lata </button>
+                    <button onclick="soma()"> Soma </button>
+                    <button onclick="subtracao()"> Subtração </button>
+                    <button onclick="multiplicacao()"> Multiplicação </button>
+                    <button onclick="divisao()"> Divisão </button>
+                    <button onclick="areaQuadrado()"> Área do Quadrado </button>
+                    <button onclick="perimetroQuadrado()"> Perímetro do Quadrado </button>
+                    <button onclick="areaRetangulo()"> Área do Retângulo </button>
+                    <button onclick="perimetroRetangulo()"> Perímetro do Retângulo </button>
+                    <button onclick="areaTriangulo()"> Área do Triângulo </button>
+                    <button onclick="areaCirculo()"> Área do Círculo </button>
+                    <button onclick="comprimentoCircunferencia()"> Comprimento da Circunferência </button>
+                    <button onclick="areaLosango()"> Área do Losango </button>
+                    <button onclick="areaTrapezio()"> Área do Trapézio </button>
+                    <button onclick="areaParalelogramo()"> Área do Paralelogramo </button>
+                    <button onclick="areaPerimetroQuadrado()"> Área e Perímetro do Quadrado </button>
+                    <button onclick="mediaTresValores()"> Média de Três Valores </button>
+                    <button onclick="metrosParaCentimetros()"> Metros para Centímetros </button>
+                    <button onclick="idadeMesesDias()"> Idade em Meses e Dias </button>
+                    <button onclick="salarioComAumento()"> Salário com Aumento </button>
+                    <button onclick="valorCompra()"> Valor da Compra </button>
+                    <button onclick="valorDesconto()"> Valor do Desconto </button>
+                    <button onclick="consumoCombustivel()"> Consumo Médio de Combustível </button>
+                    <button onclick="trocaValores()"> Troca de Valores </button>
+                    <button onclick="comparacaoAreas()"> Comparação de Áreas </button>
+                    <button onclick="areaTotalDoisRetangulos()"> Área Total de Dois Retângulos </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Operadores Aritméticos</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="antecessorValor()"> Antecessor de um Valor </button>
+                    <button onclick="areaRetanguloDimensoes()"> Área do Retângulo (Dimensões) </button>
+                    <button onclick="idadeEmDias()"> Idade em Dias </button>
+                    <button onclick="conversaoMetrosCentimetros()"> Conversão Metros &rarr; Centímetros </button>
+                    <button onclick="areaQuadradoDobro()"> Área do Quadrado e o Dobro </button>
+                    <button onclick="salarioPorHora()"> Salário por Hora Trabalhada </button>
+                    <button onclick="percentualVotos()"> Percentual de Votos </button>
+                    <button onclick="novoSalarioReajuste()"> Novo Salário com Reajuste </button>
+                    <button onclick="custoFinalCarro()"> Custo Final do Carro </button>
+                    <button onclick="salarioVendedorComissaoFixa()"> Salário do Vendedor (Comissão Fixa) </button>
+                    <button onclick="fahrenheitParaCelsius()"> Fahrenheit para Celsius </button>
+                    <button onclick="mediaPonderadaTresNotas()"> Média Ponderada (3 Notas) </button>
+                    <button onclick="areaCirculoRaio()"> Área do Círculo (&pi;R&sup2;) </button>
+                    <button onclick="numeroLampadas()"> Número de Lâmpadas </button>
+                    <button onclick="caixasAzulejos()"> Caixas de Azulejos </button>
+                    <button onclick="rendimentoTaxi()"> Rendimento do Táxi </button>
+                    <button onclick="combustivelF1()"> Combustível Fórmula 1 </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Estruturas de Seleção</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="maiorQue10()"> Maior que 10? </button>
+                    <button onclick="positivoOuNegativo()"> Positivo ou Negativo </button>
+                    <button onclick="custoMacas()"> Custo de Maçãs </button>
+                    <button onclick="mediaAprovacao()"> Média e Aprovação </button>
+                    <button onclick="podeVotar()"> Pode Votar? </button>
+                    <button onclick="maiorDeDois()"> Maior de Dois Valores </button>
+                    <button onclick="ordemCrescenteDois()"> Ordem Crescente (2 valores) </button>
+                    <button onclick="duracaoJogoXadrez()"> Duração do Jogo de Xadrez </button>
+                    <button onclick="salarioComHoraExtra()"> Salário com Hora Extra </button>
+                    <button onclick="pesoIdealCorrigido()"> Peso Ideal (Algoritmo Corrigido) </button>
+                    <button onclick="salarioComissaoProgressiva()"> Salário com Comissão Progressiva </button>
+                    <button onclick="saldoBancario()"> Saldo Bancário </button>
+                    <button onclick="controleEstoque()"> Controle de Estoque </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Seleção Aninhada ou Concatenada</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="positivoNegativoZero()"> Positivo, Negativo ou Zero </button>
+                    <button onclick="maiorDeTres()"> Maior de Três Valores </button>
+                    <button onclick="somaDoisMaiores()"> Soma dos Dois Maiores </button>
+                    <button onclick="ordemCrescenteTres()"> Ordem Crescente (3 valores) </button>
+                    <button onclick="verificaTriangulo()"> Verifica Triângulo </button>
+                    <button onclick="vencedorPartida()"> Vencedor da Partida </button>
+                    <button onclick="comparaDoisValores()"> Compara Dois Valores </button>
+                    <button onclick="testeMesaZ()"> Teste de Mesa (Z) </button>
+                    <button onclick="descontoCombustivel()"> Desconto Combustível </button>
+                    <button onclick="idadesHomensMulheres()"> Idades (Homens e Mulheres) </button>
+                    <button onclick="precoFrutas()"> Preço de Frutas </button>
+                    <button onclick="loginUsuario()"> Login de Usuário </button>
+                    <button onclick="regiaoProcedencia()"> Região de Procedência </button>
+                    <button onclick="mediaComOptativa()"> Média com Optativa </button>
+                    <button onclick="mediaSemestralAprovado()"> Média Semestral - Aprovado </button>
+                    <button onclick="mediaSemestralCompleta()"> Média Semestral Completa </button>
+                    <button onclick="validaSenhaSimples()"> Valida Senha </button>
+                    <button onclick="pesoIdealAlturaSexo()"> Peso Ideal (Altura e Sexo) </button>
+                    <button onclick="parOuImpar()"> Par ou Ímpar </button>
+                    <button onclick="poligonoRegular()"> Polígono Regular </button>
+                    <button onclick="poligonoCompleto()"> Polígono (Completo) </button>
+                    <button onclick="calculadoraOperacoes()"> Calculadora de Operações </button>
+                    <button onclick="ordemDecrescenteTres()"> Ordem Decrescente (3 valores) </button>
+                    <button onclick="tipoTrianguloLados()"> Tipo de Triângulo (Lados) </button>
+                    <button onclick="tipoTrianguloAngulos()"> Tipo de Triângulo (Ângulos) </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Operadores Lógicos</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="operadoresLogicos()"> Operadores Lógicos </button>
+                    <button onclick="descontoPorQuantidade()"> Desconto por Quantidade </button>
+                    <button onclick="conceitoAluno()"> Conceito do Aluno </button>
+                    <button onclick="verificaAposentadoria()"> Verifica Aposentadoria </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 1 &mdash; Variáveis e Operadores</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="valorPaes()"> Valor Total dos Pães </button>
+                    <button onclick="sucessorValor()"> Sucessor de um Valor </button>
+                    <button onclick="exibeIdade()"> Exibir Idade </button>
+                    <button onclick="quilometrosParaMetros()"> Quilômetros para Metros </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 2 &mdash; If e Else</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="podeTirarCNH()"> Pode Tirar CNH? </button>
+                    <button onclick="multiploDeCinco()"> Múltiplo de 5 </button>
+                    <button onclick="anoBissexto()"> Ano Bissexto </button>
+                    <button onclick="validaSexo()"> Valida Sexo (M/F) </button>
+                    <button onclick="entreDezECem()"> Está entre 10 e 100? </button>
+                    <button onclick="verificaMulta()"> Verifica Multa </button>
+                    <button onclick="menorDeTres()"> Menor de Três Valores </button>
+                    <button onclick="freteGratis()"> Frete Grátis </button>
+                    <button onclick="classificaTemperatura()"> Classifica Temperatura </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 3 &mdash; If, Elif e Else</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="conceitoNota()"> Conceito por Nota (A&ndash;F) </button>
+                    <button onclick="estacaoDoAno()"> Estação do Ano </button>
+                    <button onclick="calculaIMC()"> Calcula IMC </button>
+                    <button onclick="faixaEtaria()"> Faixa Etária </button>
+                    <button onclick="diaDaSemana()"> Dia da Semana </button>
+                    <button onclick="vogalOuConsoante()"> Vogal ou Consoante </button>
+                    <button onclick="categoriaAtleta()"> Categoria do Atleta </button>
+                    <button onclick="periodoDoDia()"> Período do Dia </button>
+                    <button onclick="menuCaixaEletronico()"> Menu Caixa Eletrônico </button>
+                    <button onclick="faixaTributacao()"> Faixa de Tributação </button>
+                    <button onclick="categoriaPreco()"> Categoria de Preço </button>
+                    <button onclick="nivelRPG()"> Nível RPG </button>
+                    <button onclick="classificacaoIndicativa()"> Classificação Indicativa </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 4 &mdash; Operadores Lógicos</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="entradaFesta()"> Entrada na Festa </button>
+                    <button onclick="aprovacaoNotaFrequencia()"> Aprovação (Nota e Frequência) </button>
+                    <button onclick="intervaloAceitavel()"> Intervalo Aceitável </button>
+                    <button onclick="senhaSegura()"> Senha Segura </button>
+                    <button onclick="financiamentoImovel()"> Financiamento de Imóvel </button>
+                    <button onclick="validaData()"> Valida Data </button>
+                    <button onclick="acessoAdministrativo()"> Acesso Administrativo </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 5 &mdash; While</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="numeros1a10()"> Números de 1 a 10 </button>
+                    <button onclick="contagemRegressiva()"> Contagem Regressiva </button>
+                    <button onclick="soma1a100()"> Soma de 1 a 100 </button>
+                    <button onclick="paresAte100()"> Pares até 100 </button>
+                    <button onclick="imparesAte100()"> Ímpares até 100 </button>
+                    <button onclick="lerAteZero()"> Ler até Zero </button>
+                    <button onclick="somaValoresWhile()"> Somar Valores </button>
+                    <button onclick="mediaValoresWhile()"> Média dos Valores </button>
+                    <button onclick="contarNumeros()"> Contar Números </button>
+                    <button onclick="menuPrincipal()"> Menu Principal </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 6 &mdash; For</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="sequencia1a20()"> Sequência de 1 a 20 </button>
+                    <button onclick="tabuada()"> Tabuada </button>
+                    <button onclick="fatorial()"> Fatorial </button>
+                    <button onclick="somaAteN()"> Soma até N </button>
+                    <button onclick="contarCaracteres()"> Contar Caracteres </button>
+                    <button onclick="contarVogais()"> Contar Vogais </button>
+                    <button onclick="contarConsoantes()"> Contar Consoantes </button>
+                    <button onclick="maiorDeDez()"> Maior de Dez Números </button>
+                    <button onclick="menorDeDez()"> Menor de Dez Números </button>
+                    <button onclick="mediaDezNotas()"> Média de Dez Notas </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 7 &mdash; Listas</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="armazenarLista()"> Armazenar Lista </button>
+                    <button onclick="estatisticasLista()"> Estatísticas da Lista </button>
+                    <button onclick="contarParesLista()"> Contar Pares na Lista </button>
+                    <button onclick="removerDuplicados()"> Remover Duplicados </button>
+                    <button onclick="pesquisarElemento()"> Pesquisar Elemento </button>
+                </div>
+            </div>
+        </details>
+
+        <details class="category">
+            <summary>Módulo 8 &mdash; Manipulação de Arquivos</summary>
+            <div class="category-body">
+                <div class="button-grid">
+                    <button onclick="criarArquivoAlunos()"> Criar Arquivo de Alunos </button>
+                    <button onclick="lerArquivoAlunos()"> Ler Arquivo de Alunos </button>
+                    <button onclick="contarLinhasArquivo()"> Contar Linhas do Arquivo </button>
+                    <button onclick="analisarArquivo()"> Analisar Arquivo </button>
+                </div>
+            </div>
+        </details>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>Navegação</h3>
+                <a href="index.html">Início</a>
+                <a href="exercicios.html">Exercícios</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-col">
+                <h3>Redes</h3>
+                <a href="https://www.linkedin.com/in/saira-silva/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/sairasilva" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <div class="footer-col footer-about">
+                <h3>Sobre</h3>
+                <p>Atividades de Lógica de Programação desenvolvidas durante o curso PROA &mdash; Mais que empregos,
+                    futuros.</p>
+            </div>
+        </div>
+        <p class="footer-credit">&copy; 2026 Saira Silva &mdash; Desenvolvido durante as atividades de Lógica de
+            Programação com JavaScript &middot; PROA</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
